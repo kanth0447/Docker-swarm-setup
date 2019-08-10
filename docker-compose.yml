@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  my_nginx:
+    image: nginx
+    volumes:
+      - .:/site
+    ports:
+      - 80:80
